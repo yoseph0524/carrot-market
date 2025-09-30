@@ -1,8 +1,26 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+// import { Roboto, Rubik_Scribble } from "next/font/google";
+// import localFont from "next/font/local";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+// const roboto = Roboto({
+//   subsets: ["latin"],
+//   weight: ["400", "500"],
+//   style: ["normal"],
+//   variable: "--roboto-text",
+// });
+
+// const rubick = Rubik_Scribble({
+//   weight: "400",
+//   style: "normal",
+//   subsets: ["latin"],
+//   variable: "--rubick-text",
+// });
+
+// const metallica = localFont({
+//   src: "./metallica.ttf",
+//   variable: "--metallica-text",
+// });
 
 export const metadata: Metadata = {
   title: {
@@ -19,9 +37,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.className} bg-neutral-900 text-white max-w-screen-sm mx-auto`}
-      >
+      <body className={` bg-neutral-900 text-white max-w-screen-sm mx-auto`}>
         {children}
       </body>
     </html>
