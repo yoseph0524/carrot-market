@@ -44,7 +44,7 @@
 
 ## Project
 
-> 1. 로그인
+> 1. LogIn
 
 - Users can log in using an email or phone number to recieve a verification code. 
 - For email login, the Twilio SendGrid Email API is used to send the code.
@@ -54,7 +54,7 @@
   <br /><br />
   <img height="700" src="./2.gif" />
 
-> 2. 프로필
+> 2. Profile
 
 - Users can view and edit their profile photo, name, email, and phone number.
 - Tabs like Neighborhood Life and Favorites allow users to view their posts or favorite items.
@@ -63,14 +63,14 @@
   <br /><br />
   <img height="700" src="./3.gif" />
 
-> 3. 상품 및 포스트 검색
+> 3. Products and Post Search
 
 - Users can search products by name.
 - Users can search posts by content.
   <br /><br />
   <img height="700" src="./4.gif" />
 
-> 4. 상품
+> 4. Products
 
 - View all items listed in the secondhand marketplace.
 - Load more products with the "See more" option.
@@ -80,7 +80,7 @@
   <br /><br />
   <img height="700" src="./5.gif" />
 
-> 5. 상품 상세정보
+> 5. Product Details
 
 - View images, name, price, description, and like count.
 - Like a product to add it to favorites using SWR to update the cache.
@@ -90,7 +90,7 @@
   <br /><br />
   <img height="700" src="./6.gif" />
 
-> 6. 포스트
+> 6. Posts
 
 - View all community posts under "Neighborhood Life".
 - Load more posts with "See more".
@@ -100,7 +100,7 @@
   <br /><br />
   <img height="700" src="./7.gif" />
 
-> 7. 포스트 상세정보
+> 7. Post Details
 
 - View image, description, comment count, and likes.
 - Like a post to add it to favorites and update cache via SWR.
@@ -108,7 +108,7 @@
   <br /><br />
   <img height="700" src="./8.gif" />
 
-> 8. 스트리밍
+> 8. Streaming
 
 - View all streaming sessions.
 - Click to view details of a stream.
@@ -116,7 +116,7 @@
   <br /><br />
   <img height="700" src="./9.gif" />
 
-> 9. 스트리밍 상세정보
+> 9. Streaming Details
 
 - Watch live or latest streams on the stream details page.
 - Streamers can start live streams using server URL and stream key from Cloudflare Stream.
@@ -125,14 +125,14 @@
   <br /><br />
   <img height="700" src="./10.gif" />
 
-> 10. 채팅
+> 10. Chat
 
 - View all chat rooms.
 - Click on a chat to view details.
   <br /><br />
   <img height="700" src="./11.gif" />
 
-> 11. 채팅 상세정보
+> 11. Chatting Details
 
 - Chat directly with the product seller.
 - After completing a transaction, users can leave the chat room.
@@ -143,86 +143,86 @@
 
 > Root
 
-- 홈
-- 로그인
-- 검색
+- Home
+- Login
+- Search
 
 > User
 
-- 동네 생활
-- 관심 목록
-- 판매 물품
-- 판매 완료
-- 거래 후기
-- 프로필 수정
+- Neighborhood Life
+- Favorites
+- Selling
+- Sold
+- Reviews
+- Edit Profile
 
 > Product
 
-- 전체 상품
-- 상품 상세정보
+- All Products
+- Product Details
 
 > Post
 
-- 전체 포스트
-- 포스트 상세정보
+- All Posts
+- Post Details
 
 > Stream
 
-- 전체 스트리밍
-- 스트리밍 상세정보
+- ALl Streams
+- Stream Details
 
 > Chat
 
-- 전체 채팅
-- 채팅 상세정보
+- All Chats
+- Chat Details
 
 ## Features
 
 ### 🙎‍♂️ User
 
-- [x] 이메일, 휴대폰 로그인
-- [x] 로그아웃
-- [x] 프로필 보기
-- [x] 아바타 업로드
-- [x] 프로필 수정
-- [x] 리뷰 작성
-- [x] 리뷰 삭제
+- [x] Login via email or phone
+- [x] Logout
+- [x] View Profile
+- [x] Upload avatar
+- [x] Edit profile
+- [x] Write review
+- [x] Delete review
 
 ### 📦 Product
 
-- [x] 전체 상품 보기
-- [x] 상품 상세정보 보기
-- [x] 상품 업로드
-- [x] 상품 삭제
-- [x] 상품 좋아요
-- [x] 상품 검색
-- [x] 상품 판매완료
-- [x] 상품 판매자와 채팅
+- [x] View all products
+- [x] View product details
+- [x] Upload product
+- [x] Delete product
+- [x] Like product
+- [x] Search product
+- [x] Mark as sold
+- [x] Chat with seller
 
 ### 📋 Post
 
-- [x] 전체 포스트 보기
-- [x] 포스트 상세정보 보기
-- [x] 포스트 작성
-- [x] 포스트 삭제
-- [x] 포스트 좋아요
-- [x] 포스트 검색
-- [x] 포스트 댓글
+- [x] View all posts
+- [x] View post details
+- [x] Create post
+- [x] Delete post
+- [x] Like post
+- [x] Search post
+- [x] Post comments
 
 ### 🎥 Stream
 
-- [x] 전체 스트리밍 보기
-- [x] 스트리밍 상세정보 보기
-- [x] 스트리밍 생성
-- [x] 스트리밍 삭제
-- [x] 스트리밍 채팅
+- [x] View all streams
+- [x] View stream details
+- [x] Create stream
+- [x] Delete stream
+- [x] Stream chat
 
 ### 💬 Chat
 
-- [x] 전체 채팅 보기
-- [x] 채팅 상세정보 보기
-- [x] 채팅 생성
-- [x] 채팅 삭제
+- [x] View all chats
+- [x] View chat details
+- [x] Create chat
+- [x] Delete chat
 
 ## License
 
