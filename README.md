@@ -1,10 +1,10 @@
 <div align="center">
   <a href="https://danggeun-market.vercel.app">
-    <img height="120" src="./previews/danggeun_market_logo.png" />
+    <img height="120" src="./danggeun_market_logo.png" />
     <br /><br />
     <a display="block" href="https://danggeun-market.vercel.app">https://danggeun-market.vercel.app</a>
     <br /><br />
-    <img height="700" src="./previews/1.gif" />
+    <img height="700" src="./1.gif" />
   </a>
 </div>
 
